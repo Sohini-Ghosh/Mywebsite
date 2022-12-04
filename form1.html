@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Registration Form </title>
+   </head>
+   <body>
+      <div class="form_heading_area">
+         <h1 style="font-size:30px; color: green; text-align:center">Registration Form</h1>
+         <p style="text-align:center">Please fill the form carefully</p>
+         <hr>
+      </div>
+      <div class="form_area">
+         <form>
+            <div class="personal_details">
+               <h2 style="color:blue">Personal Details</h2>
+               <lable for="name"><b>Student Name</b></lable>
+               <input type="text" placeholder="Enter first name" required>
+               <input type="text" placeholder="Enter middle name">
+               <input type="text" placeholder="Enter last name" required>
+               <br><br>
+               <lable for="name"><b>Father Name</b></lable>
+               <input type="text" placeholder="Enter name" required>
+               <lable for="name"><b>Mother Name</b></lable>
+               <input type="text" placeholder="Enter name" required>
+               <br><br>
+               <lable for="name"><b>Gender</b></lable>
+               <lable for="name"><b>Male</b></lable>
+               <input type="radio" name="gender" value="Male">
+               <lable for="name"><b>Female</b></lable>
+               <input type="radio" name="gender" value="Female">
+               <br><br>
+               <lable for="name"><b>Category</b></lable>
+               <select name="Category" id="category">
+                  <option value="-1">Choose</option>
+                  <option value="General">General</option>
+                  <option value="ST">ST</option>
+                  <option value="SC">SC</option>
+                  <option value="OBC">OBC</option>
+               </select>
+               <br><br>
+               <lable for="name"><b>Date of Birth</b></lable>
+               <select name="Birthday_day">
+                  <option value="-1">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+               </select>
+               <select name="Birthday_month">
+                  <option value="-1">Month</option>
+                  <option value="January">Jan</option>
+                  <option value="February">Feb</option>
+                  <option value="March">Mar</option>
+                  <option value="April">Apr</option>
+                  <option value="May">May</option>
+                  <option value="June">Jun</option>
+                  <option value="July">Jul</option>
+                  <option value="August">Aug</option>
+                  <option value="September">Sep</option>
+                  <option value="October">Oct</option>
+                  <option value="November">Nov</option>
+                  <option value="December">Dec</option>
+               </select>
+               <select name="Birth_year">
+                  <option value="-1">Year</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+                  <option value="1996">1996</option>
+                  <option value="1995">1995</option>
+                  <option value="1994">1994</option>
+                  <option value="1993">1993</option>
+                  <option value="1992">1992</option>
+                  <option value="1991">1991</option>
+                  <option value="1990">1990</option>
+               </select>
+               <br><br>
+               <lable for="name"><b>Identity Proof</b></lable>
+               <select name="Category" id="category">
+                  <option value="-1">Choose</option>
+                  <option value="Voter Id">General</option>
+                  <option value="Addhar Card">ST</option>
+                  <option value="Pan Card">SC</option>
+                  <option value="Others">OBC</option>
+               </select>
+               <lable for="name"><b>Identity No.</b></lable>
+               <input type="text" placeholder="Enter identity no." required> 
+               <br><br>
+               <lable for="name"><b>Email</b></lable>
+               <input type="email" placeholder="Enter email id" required> 
+               <lable for="name"><b>Contact</b></lable>
+               <input type="text" placeholder="Enter phone no." required>
+               <br><br>
+               <lable for="name"><b><strong>Password</strong></b></lable>
+               <input type="password" placeholder="Enter password" required>
+               <br><br>
+               <lable for="name"><b><strong>Confirm Password</strong></b></lable>
+               <input type="password" placeholder="Enter password" required>
+            </div>
+            <hr>
+            <div class="communication_details">
+               <h2 style="color:blue">Communication Details</h2>
+               <lable for="name"><b>House No.</b></lable>
+               <input type="text" required>
+               <lable for="name"><b>Street</b></lable>
+               <input type="text">
+               <br><br>
+               <lable for="name"><b>Area</b></lable>
+               <textarea name="Area" rows="1" cols="20"></textarea>
+               <lable for="name"><b>City</b></lable>
+               <input type="text" required>
+               <br><br>
+               <lable for="name"><b>District</b></lable>
+               <input type="text" required>
+               <lable for="name"><b>Pincode</b></lable>
+               <input type="tel" required>
+               <br><br>
+               <lable for="name"><b>State</b></lable>
+               <input type="text" required>
+               <lable for="name"><b>Country</b></lable>
+               <input type="text" required>
+            </div>   
+            <br>
+            <hr>
+
+            <div class="educational_details">
+               <h2 style="color:blue">Education Details</h2>
+               <table border="1" cellpading="0">
+                  <tr>
+                     <th>SL.no.</th>
+                     <th>Examinatiion</th>
+                     <th>Institute Name</th>
+                     <th>Board/University</th>
+                     <th>Passing Year</th>
+                     <th>Percentage/CGPA</th>
+                  </tr>
+                  <tr>
+                     <td>1</td>
+                     <td>Class X</td>
+                     <td><input type="text" name="Institute"></td>
+                     <td><input type="text" name="ClassX_board"></td>
+                     <td><input type="text" name="ClassX_passing_year" ></td>
+                     <td><input type="text" name="ClassX_Percentage"></td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>Class XII</td>
+                     <td><input type="text" name="Institute"></td>
+                     <td><input type="text" name="ClassXII_board"></td>
+                     <td><input type="text" name="ClassXII_passing_year"></td>
+                     <td><input type="text" name="ClassXII_Percentage"></td>
+                  </tr>
+                  <tr>
+                     <td>1</td>
+                     <td>Graduation</td>
+                     <td><input type="text" name="Institute"></td>
+                     <td><input type="text" name="Graduate_board"></td>
+                     <td><input type="text" name="Graduate_passing_year"></td>
+                     <td><input type="text" name="Graduate_Percentage"></td>
+                  </tr>
+               </table>
+               <br>
+               <label for="name"><b>Applying for Course:</b></label>
+               <label for="name"><b>MCA</b></label>
+               <input type="radio" name="Course" value="MCA"/>
+               <label for="name"><b>M.Tech</b></label>  
+               <input type="radio" name="Course" value="M.Tech"/>
+               <label for="name"><b>M.Sc</b></label>
+               <input type="radio" name="Course" value="M.Sc"/></td>
+               <p style="text-align:center">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+               <center>
+                  <button type="submit" class="registerbtn" style="background-color:rgb(82, 214, 82)">Register</button>
+               </center>
+               <p style="text-align:center">Already have an account? <a href="#">Sign in</a>.</p>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>

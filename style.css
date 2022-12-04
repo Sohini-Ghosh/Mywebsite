@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+     *{
+        margin: 0;
+        padding: 0;
+     }
+     .main_menu_group {
+         text-align: center;
+     }
+     .navmenu_area ul {
+         list-style: none;
+     }
+     .navmenu_area {
+         background: #1261A0;
+     }
+     .navmenu_area a {
+         color: #ffffff;
+         font-family: 'Open Sans', sans-serif;
+         text-decoration: none;
+         border-right: 1px solid #ffffff;
+         padding: 15px 15px 15px 15px;
+         display: block;
+     }
+     .navmenu_area .menu {
+         display: inline-block;
+         position: relative;
+     }
+     .menu .sub_menu {
+         position: absolute;
+         top: 48px;
+         left: -4px;
+         background: #1261A0;
+         width: 230px;
+         transition: background-color 0.5s ease;
+         visibility: hidden;
+         opacity: 0;
+         transition: visibility 0s, opacity 0.8s linear;
+     }
+     .menu:hover .sub_menu{
+        visibility: visible;
+        opacity: 1;
+     }
+     .nested_submenu{
+        position: absolute;
+        left: 230px;
+        top: 0px;
+        background: #1261A0;
+        width: 300px;
+        visibility: hidden;
+        opacity: 0;
+        border-right: none;
+        transition: visibility 0s, opacity 0.8s linear;
+     }
+     .nested_menu_area:hover .nested_submenu{
+        visibility: visible;
+        opacity: 1;
+     }
+     .nested_menu_area{
+        position: relative;
+     }
+     .menu .sub_menu a {
+         border-bottom: 1px solid #1bc2ba;
+         text-align: left;
+         border-right: none;
+     }
+    
+     
